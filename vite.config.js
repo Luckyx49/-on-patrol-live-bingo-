@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Set base to '/<your-repo-name>/' for GitHub Pages
 export default defineConfig({
   plugins: [react()],
-  base: '-on-patrol-live-bingo',
+  // If your repo is e.g. on-patrol-live-bingo-plus:
+  base: '/on-patrol-live-bingo-plus/',   // <-- must match repo name exactly
 })

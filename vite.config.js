@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/-on-patrol-live-bingo-/',
+  base: '/-on-patrol-live-bingo-/',  // note both dashes
 })

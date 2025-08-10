@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // If your repo is e.g. on-patrol-live-bingo-plus:
-  base: '/on-patrol-live-bingo-plus/',   // <-- must match repo name exactly
+  base: '/on-patrol-live-bingo-/', // must match repo name EXACTLY (case + dashes)
 })
